@@ -1,4 +1,4 @@
-name = "stateless-discord-bot"
+name = "regi-slash-commands"
 type = "rust"
 account_id = "{{ACCOUNT_ID}}"
 workers_dev = true
