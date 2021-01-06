@@ -1,6 +1,6 @@
 mod config;
-mod maps;
 mod location;
+mod maps;
 mod subscribe;
 
 use crate::discord::interaction::{
