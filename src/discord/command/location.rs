@@ -6,7 +6,7 @@ pub(crate) fn location() -> InteractionResponse {
     InteractionResponse {
         ty: InteractionResponseType::ChannelMessageWithSource,
         data: Some(InteractionApplicationCommandCallbackData {
-            content: "https://docs.qixalite.com/support/tf2/#support".to_string(),
+            content: "https://docs.qixalite.com/support/tf2/#regions".to_string(),
         }),
     }
 }
