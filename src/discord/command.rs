@@ -12,7 +12,7 @@ pub(crate) fn handle_command(data: &ApplicationCommandInteractionData) -> Intera
         "maps" => maps::maps(),
         "configs" => config::config(),
         "locations" => location::location(),
-        "subscribe" => subscribe::subscribe(),
+        // "subscribe" => subscribe::subscribe(), // @TODO: Comeback to when docs finalized
         _ => InteractionResponse {
             ty: InteractionResponseType::ACKWithSource,
             data: None,
